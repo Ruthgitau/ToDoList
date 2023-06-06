@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    
+    background-color: rgb(190, 190, 190);
+    min-height: 100vh;
+}
+
+h1{
+    color: black;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+input{
+    border: none;
+}
+
+#inputtask{
+    background-color: azure;
+    font-size: large;
+    border-radius: 1cm;
+    margin: right 1rem;
+    padding: 1rem;
+    width: 300px;
+}
+
+.addbtn{
+    color: purple;
+    width: 300px;
+    margin: 20px 0 0 0;
+    font-size: large;
+    background-color: white;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    cursor: pointer;
+    background: lightcyan;
+
+}
+
+ul li .checked{
+    background-color: bisque;
+    color: brown;
+    text-decoration: line-through;
+}
+.close{
+    position: absolute;
+    right: 0;
+    left: 0;
+}

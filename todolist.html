@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="todolist.css" type="text/css">
+        <script src="todolist.js" type="text/JavaScript" async></script>
+        <title>To Do List</title>
+    </head>
+
+    <body>
+        <h1>TO DO LIST</h1>
+
+        <form id="newtaskform">
+        <input type="text" id="inputtask" placeholder="Input a task"><br>
+        <button onclick="newelement()" class="addbtn">Add</button>
+        </form>
+
+
+        <main>
+            <section class="tasks_list">
+                <h2>Tasks</h2><br>
+                <div id="tasks">
+                    <ul id="mylist">
+                        <li class="checked">Learn python</li>
+                        <li>Work on my portfolio</li>
+                        <li>Read JavaScript</li><br>
+                        
+
+                    </ul>
+                    
+
+                    <input type="text" readonly>
+                    <button style="color: purple">EDIT</button>
+                    <button style="color: purple">DELETE</button>
+                </div>
+
+
+            </section>
+
+
+        </main>
+    </body>
+
+
+</html>
