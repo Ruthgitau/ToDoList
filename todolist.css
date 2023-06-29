@@ -6,28 +6,40 @@
 
 body{
     
-    background-color: rgb(190, 190, 190);
+    background-color: #87CEFA;
     min-height: 100vh;
 }
 
 h1{
-    color: black;
+    color: #2f4f4f;
     font-weight: 300;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 input{
     border: none;
 }
 
-#inputtask{
+#taskInput{
     background-color: azure;
     font-size: large;
     border-radius: 1cm;
     margin: right 1rem;
     padding: 1rem;
     width: 300px;
+    margin-left: 5cm;
 }
+#inputtask{
+    color: #87CEFA;
+    background-color: #2f4f4f;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}
+
+
 
 .addbtn{
     color: purple;
@@ -57,4 +69,7 @@ ul li .checked{
     position: absolute;
     right: 0;
     left: 0;
+}
+#completedTable{
+    height: 5cm;
 }
