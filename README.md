@@ -1,2 +1,2 @@
 # ToDoList
-This is a to do list site that is made functionl using Javascript
+This is a to do list site that is made functional using Javascript
